@@ -1,0 +1,11 @@
+.sidebar-menu-item span {
+    @apply flex items-center gap-3 font-semibold;
+}
+
+.active {
+    @apply bg-default-light;
+}
+
+.active span {
+    @apply text-default;
+}

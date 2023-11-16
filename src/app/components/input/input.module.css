@@ -1,0 +1,15 @@
+.input-container {
+    @apply w-full;
+}
+
+.input-container .input {
+    @apply w-full rounded-md border border-inputBorder focus-within:border-default;
+}
+
+.input-container input {
+    @apply w-full px-3 py-[10px] rounded-md border-none outline-none focus:outline-none focus:border-none ring-0 focus:ring-0 font-semibold text-xs;
+}
+
+.input {
+    @apply flex items-center pr-3;
+}

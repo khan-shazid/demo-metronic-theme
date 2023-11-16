@@ -1,0 +1,19 @@
+.container {
+    @apply flex items-center flex-1 p-6 gap-4 bg-[#EEF6FF] border-[1px] border-dashed rounded-lg;
+}
+
+.active {
+    @apply border-default;
+}
+
+.active .icon {
+    @apply text-default;
+}
+
+.type-name {
+    @apply text-[#181C32] font-semibold text-left;
+}
+
+.type-details {
+    @apply text-[#7E8299] text-xs text-left;
+}

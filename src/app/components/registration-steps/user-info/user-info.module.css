@@ -1,0 +1,7 @@
+.social-container {
+    @apply w-full flex flex-col md:flex-row gap-3;
+}
+
+.social-icon {
+    @apply flex-1 flex items-center text-[#7E8299] font-semibold p-3 gap-3 border-[1px] border-[#E1E3EA] rounded-md;
+}
